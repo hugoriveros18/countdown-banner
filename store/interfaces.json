@@ -1,0 +1,18 @@
+
+{
+  "top-banner-countdown": {
+    "component": "TopBanner",
+    "allowed": "*",
+    "render": "client"
+  },
+  "home-banner-countdown": {
+    "component": "HomeBanner",
+    "allowed": "*",
+    "render": "client"
+  },
+  "slider-banner-countdown": {
+    "component": "SliderBanner",
+    "allowed": "*",
+    "render": "client"
+  }
+}

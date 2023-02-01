@@ -1,0 +1,12 @@
+.banner__general-container {
+  display: flex;
+  width   : 100%;
+  position: relative;
+  margin  : 0px;
+  padding : 0px;
+  cursor: pointer;
+}
+
+.banner__general-container img {
+  width: 100%;
+}

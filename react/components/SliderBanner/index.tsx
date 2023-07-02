@@ -60,14 +60,14 @@ const SliderBanner = ({
 
   if(device == 'desktop') {
     return (
-      <a href={linkDeRedireccion}>
+      <a className={handles['banner__inactive-image']} href={linkDeRedireccion}>
         <img alt='' src={`${imagenOfertaApagadaDesktopTablet}`}/>
       </a>
     );
   }
 
   return (
-    <a href={linkDeRedireccion}>
+    <a className={handles['banner__inactive-image']} href={linkDeRedireccion}>
       <img alt='' src={`${imagenOfertaApagadaMobile}`}/>
     </a>
   );

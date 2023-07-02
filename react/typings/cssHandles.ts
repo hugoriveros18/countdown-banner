@@ -1,5 +1,7 @@
 const CSS_HANDLES = [
   'banner__general-container',
+  'banner__inactive-image',
+  
   'countdown__general-container-top',
   'countdown__title-top',
   'countdown__title-text-top',
